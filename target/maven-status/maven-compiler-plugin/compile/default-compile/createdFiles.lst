@@ -1,0 +1,12 @@
+com\interview\foodchain\schema\generated\ObjectFactory.class
+com\interview\foodchain\reader\jsonFileParser.class
+com\interview\foodchain\reader\xmlFileParser.class
+com\interview\foodchain\reader\ParserFactory.class
+com\interview\foodchain\reader\jsonFileParser$1.class
+com\interview\foodchain\reader\FileParser.class
+com\interview\foodchain\reader\Parser.class
+com\interview\foodchain\schema\generated\OrderdetailType.class
+com\interview\foodchain\schema\generated\OrdersType.class
+com\interview\foodchain\schema\generated\CmfoodchainType.class
+com\interview\foodchain\schema\generated\BranchType.class
+com\interview\foodchain\reader\xmlFileParser$1.class

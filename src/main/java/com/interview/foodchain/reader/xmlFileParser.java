@@ -27,7 +27,7 @@ import com.interview.foodchain.schema.generated.OrderdetailType;
 
 public class xmlFileParser implements FileParser {
 
-	private static final Logger LOG = Logger.getLogger(ParserTest.class);
+	private static final Logger LOG = Logger.getLogger(xmlFileParser.class);
 	private static final String PROPERTY_FILE = "/foodchainTest.properties";
 	private static final String INPUT_XSD_PATH ="input.xsdpath";
 	private static final String INPUT_XML_PATH ="input.xmlpath";
@@ -56,7 +56,7 @@ public class xmlFileParser implements FileParser {
 				CmfoodchainType cmFoodChain = (CmfoodchainType)element.getValue();
 
 				if(!calculateOrdersTotal(cmFoodChain).equals(cmFoodChain.getBranch().getTotalcollection())){
-					FileWriter mismatchFile = new FileWriter("C:\\Users\\HP\\Desktop\\files\\mismatch\\Mismatched.txt");
+					FileWriter mismatchFile = new FileWriter("C:\\Users\\HP\\Desktop\\files\\mismatch\\MismatchedXML.txt");
 					PrintWriter printWriter = new PrintWriter(mismatchFile);
 					printWriter.println("*****************************************");
 					printWriter.println("Mismatched Data for " + cmFoodChain.getBranch().getLocation() + " location" + " with location Id "+cmFoodChain.getBranch().getLocationid() );
@@ -69,7 +69,7 @@ public class xmlFileParser implements FileParser {
 					printWriter.close();
 				}
 				else{
-					FileWriter matchedFile = new FileWriter("C:\\Users\\HP\\Desktop\\files\\match\\Matched.txt");
+					FileWriter matchedFile = new FileWriter("C:\\Users\\HP\\Desktop\\files\\match\\MatchedXML.txt");
 					PrintWriter printWriter = new PrintWriter(matchedFile);
 					printWriter.print("");
 					printWriter.close();

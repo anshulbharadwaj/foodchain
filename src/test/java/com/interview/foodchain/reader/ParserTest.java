@@ -23,6 +23,7 @@ public class ParserTest {
 	
 	@Test
 	public void test_generated_files(){
+		assert(true);
 		try{
 			Properties properties = new Properties();
 			properties.load(this.getClass().getResourceAsStream(PROPERTY_FILE));
@@ -42,6 +43,7 @@ public class ParserTest {
 
 	@Test
 	public void validate_xsd(){
+		assert(true);
 		try {
 			Properties properties = new Properties();
 			properties.load(this.getClass().getResourceAsStream(PROPERTY_FILE));
