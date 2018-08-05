@@ -10,7 +10,9 @@ Build IDE: Eclipse Java EE IDE (Version: Mars.2 Release (4.5.2))
 JDK Version: java version "jdk1.7.0_80"
 
 Section 3
-
+Final Output Screenshot (XML input File)
+https://github.com/anshulbharadwaj/foodchain/blob/master/folder_mismatch_screenshot.JPG
+https://github.com/anshulbharadwaj/foodchain/blob/master/mismatched_txt_screenshot.JPG
 
 Section 4 
 Licensing 
