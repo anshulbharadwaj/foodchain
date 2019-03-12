@@ -1,10 +1,6 @@
 # foodchain
 initial changes for FoodChain problem
 
-Section 1
-Name : Anshul Bharadwaj
-Years: 7 years
-
 Section 2
 Build IDE: Eclipse Java EE IDE (Version: Mars.2 Release (4.5.2))
 JDK Version: java version "jdk1.7.0_80"
